@@ -38,10 +38,10 @@ export function ContactSection() {
             Контакты
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Давайте <span className="text-primary">создавать вместе</span>
+            Закажите <span className="text-primary">генератор сейчас</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Готовы воплотить ваши цифровые амбиции? Свяжитесь с нами без обязательств и узнайте, чем мы можем помочь.
+            Оставьте заявку или позвоните — подберём генератор и доставим в течение 2 часов по Калининграду.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export function ContactSection() {
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Расскажите о вашем проекте..."
+                      placeholder="Какой генератор нужен и на какой срок?"
                       rows={6}
                       required
                       className="transition-all focus:scale-[1.02]"
@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">hello@example.com</p>
+                    <p className="text-sm text-muted-foreground">info@generator39.ru</p>
                   </div>
                 </div>
               </CardContent>
@@ -145,7 +145,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-sm text-muted-foreground">+7 900 123-45-67</p>
+                    <p className="text-sm text-muted-foreground">+7 (4012) 00-00-00</p>
                   </div>
                 </div>
               </CardContent>
@@ -158,11 +158,11 @@ export function ContactSection() {
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Время работы</h3>
+                    <h3 className="font-semibold mb-1">Режим работы</h3>
                     <p className="text-sm text-muted-foreground">
-                      Пн - Пт: 9:00 - 18:00
+                      Принимаем заявки 24/7
                       <br />
-                      Выходные: по договоренности
+                      Доставка по Калининграду
                     </p>
                   </div>
                 </div>
