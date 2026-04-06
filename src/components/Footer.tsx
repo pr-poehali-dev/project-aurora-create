@@ -42,15 +42,18 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Контакты</h4>
             <div className="space-y-3">
-              <a href="tel:+74012000000" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+79316000634" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                +7 (4012) 00-00-00
+                +7 (931) 600-06-34
               </a>
-              <a href="mailto:info@generator39.ru" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:aetasmeamarina@mail.ru" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                info@generator39.ru
+                aetasmeamarina@mail.ru
               </a>
-              <p className="text-sm text-muted-foreground">Калининград, работаем 24/7</p>
+              <a href="https://t.me/marina_is_love" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <span>✈️</span>
+                @marina_is_love
+              </a>
             </div>
           </div>
         </div>

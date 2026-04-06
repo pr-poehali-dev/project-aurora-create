@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, Phone, MapPin, Send, Send as TelegramIcon } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">info@generator39.ru</p>
+                    <a href="mailto:aetasmeamarina@mail.ru" className="text-sm text-muted-foreground hover:text-primary transition-colors">aetasmeamarina@mail.ru</a>
                   </div>
                 </div>
               </CardContent>
@@ -145,7 +145,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-sm text-muted-foreground">+7 (4012) 00-00-00</p>
+                    <a href="tel:+79316000634" className="text-sm text-muted-foreground hover:text-primary transition-colors">+7 (931) 600-06-34</a>
                   </div>
                 </div>
               </CardContent>
@@ -155,15 +155,11 @@ export function ContactSection() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110">
-                    <MapPin className="h-5 w-5" />
+                    <TelegramIcon className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Режим работы</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Принимаем заявки 24/7
-                      <br />
-                      Доставка по Калининграду
-                    </p>
+                    <h3 className="font-semibold mb-1">Telegram</h3>
+                    <a href="https://t.me/marina_is_love" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">@marina_is_love</a>
                   </div>
                 </div>
               </CardContent>
